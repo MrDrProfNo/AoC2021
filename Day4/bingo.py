@@ -12,7 +12,7 @@ class BingoBoard:
 
     def score(self):
         return sum(
-            [int(space.value) for row in self.state for space in row if not space.is_marked()]
+            int(space.value) for row in self.state for space in row if not space.is_marked()
         )
 
     def mark(self, value):
