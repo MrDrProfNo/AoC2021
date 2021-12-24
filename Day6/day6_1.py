@@ -36,7 +36,7 @@ def main():
 
         print(f"Generation {generation + 1}: {fish}, total: {sum(fish)}")
 
-    print(f"{sum(fish)}")
+    print(f"After {GENS} generations, there were {sum(fish)} fish")
 
 
 if __name__ == '__main__':
